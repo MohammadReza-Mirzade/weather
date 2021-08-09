@@ -1,0 +1,25 @@
+.page{
+    border-radius: 10px;
+    margin: 50px;
+    background-color: #b1e3ff;
+    border-color: #00416c;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.chart{
+    background-color: white;
+    padding: 10px;
+    margin: 50px;
+    margin-top: 0px;
+    border-style: solid;
+    border-color: #000e64;
+    border-width: 1px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
+    transition: box-shadow 500ms;
+}
+
+.chart:hover{
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
+}
